@@ -22,6 +22,8 @@ export default function Contact() {
     const { username, email, message } = e.target.elements;
     const { REACT_APP_SERVICEID, REACT_APP_TEMPLATE, REACT_APP_PUBLICKEY } =
       process.env;
+      
+
 
     const templateParams = {
       username: username.value,
